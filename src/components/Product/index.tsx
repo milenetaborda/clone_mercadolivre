@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SellerInfo from '../SellerInfo';
+import ProductAction from '../ProductAction';
 import tshirtImage from "../../assets/tshirt.png";
 
 import {
@@ -25,8 +27,8 @@ const Product: React.FC = () => {
         </Column>
 
         <Column>
-          {/* <ProductAction />
-          <SellerInfo /> */}
+           <ProductAction />
+          <SellerInfo />
 
           <WarrantySection />
           <WarrantySection />
@@ -68,8 +70,8 @@ const Info = () => (
       -1x LED <br />
       -1x LED <br />
       <br />
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit provident exercitationem cum minima eligendi iusto at inventore? Accusantium cum, facere ipsa perspiciatis harum ad commodi quae error magnam deleniti!
-    </p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit provident exercitationem cum minima eligendi iusto at inventore? Accusantium cum, facere ipsa perspiciatis harum ad commodi quae error magnam deleniti!    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus neque quas, ipsa assumenda sapiente in quisquam deserunt placeat nisi quo magnam consequuntur labore modi asperiores eum quam repellat adipisci nobis!
+</p>
   </Description>
 );
 
